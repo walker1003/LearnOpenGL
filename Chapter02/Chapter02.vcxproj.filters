@@ -19,6 +19,9 @@
     <Filter Include="源文件\triangle">
       <UniqueIdentifier>{03a1c4f2-6ad9-45b0-802b-9314fb3f9839}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Shader">
+      <UniqueIdentifier>{a39848b5-c68e-4a58-b16a-6e3d572c71c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Thirdparty\glad\src\glad.c">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="rectangle.cpp">
       <Filter>源文件\triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform.cpp">
+      <Filter>源文件\Shader</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
