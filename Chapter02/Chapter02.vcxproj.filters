@@ -39,5 +39,24 @@
     <ClCompile Include="uniform.cpp">
       <Filter>源文件\Shader</Filter>
     </ClCompile>
+    <ClCompile Include="interpolation.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="new_shader.cpp">
+      <Filter>源文件\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>源文件\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2.3.shader.vs">
+      <Filter>源文件\Shader</Filter>
+    </None>
+    <None Include="2.3.shader.fs">
+      <Filter>源文件\Shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
