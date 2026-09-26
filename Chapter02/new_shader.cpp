@@ -36,7 +36,7 @@ int main() {
         return -1;
     }
 
-    Shader ourShader("2.3.shader.vs", "2.3.shader.fs");
+    Shader ourShader("3.3.shader.vs", "3.3.shader.fs");
 
     float vertices[] = {
         // Î»ÖÃ         // ÑÕÉ«

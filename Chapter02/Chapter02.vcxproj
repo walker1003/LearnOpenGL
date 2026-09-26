@@ -131,11 +131,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Thirdparty\glad\src\glad.c" />
+    <ClCompile Include="awesomeface.cpp" />
     <ClCompile Include="interpolation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="new_shader.cpp" />
+    <ClCompile Include="new_shader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="rectangle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="container.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="triangle.cpp">
@@ -150,10 +157,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="2.3.shader.fs" />
-    <None Include="2.3.shader.vs" />
+    <None Include="3.3.shader.fs" />
+    <None Include="3.3.shader.vs" />
+    <None Include="4.1.texture.fs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="4.1.texture.vs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="4.2.texture.fs" />
+    <None Include="4.2.texture.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
