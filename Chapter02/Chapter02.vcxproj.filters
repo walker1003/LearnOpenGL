@@ -25,6 +25,9 @@
     <Filter Include="源文件\shader">
       <UniqueIdentifier>{a39848b5-c68e-4a58-b16a-6e3d572c71c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\transform">
+      <UniqueIdentifier>{3ba799b7-1467-41f2-9c52-1bbd9f81a011}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Thirdparty\glad\src\glad.c">
@@ -51,11 +54,14 @@
     <ClCompile Include="container.cpp">
       <Filter>源文件\texture</Filter>
     </ClCompile>
-    <ClCompile Include="stb_image.cpp">
-      <Filter>源文件\texture</Filter>
-    </ClCompile>
     <ClCompile Include="awesomeface.cpp">
       <Filter>源文件\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>源文件\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +90,12 @@
     </None>
     <None Include="4.2.texture.fs">
       <Filter>源文件\texture</Filter>
+    </None>
+    <None Include="5.1.transform.vs">
+      <Filter>源文件\transform</Filter>
+    </None>
+    <None Include="5.1.transform.fs">
+      <Filter>源文件\transform</Filter>
     </None>
   </ItemGroup>
 </Project>
