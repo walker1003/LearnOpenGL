@@ -28,6 +28,9 @@
     <Filter Include="源文件\transform">
       <UniqueIdentifier>{3ba799b7-1467-41f2-9c52-1bbd9f81a011}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\coordinate">
+      <UniqueIdentifier>{f28a902d-f2d3-4df8-bdda-05d8de574204}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Thirdparty\glad\src\glad.c">
@@ -63,6 +66,15 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="slope.cpp">
+      <Filter>源文件\coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_test.cpp">
+      <Filter>源文件\coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="ten_cubes.cpp">
+      <Filter>源文件\coordinate</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -96,6 +108,24 @@
     </None>
     <None Include="5.1.transform.fs">
       <Filter>源文件\transform</Filter>
+    </None>
+    <None Include="6.1.coordinate_systems.vs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="6.1.coordinate_systems.fs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="6.2.coordinate_systems.vs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="6.2.coordinate_systems.fs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="6.3.coordinate_systems.vs">
+      <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="6.3.coordinate_systems.fs">
+      <Filter>源文件\coordinate</Filter>
     </None>
   </ItemGroup>
 </Project>
