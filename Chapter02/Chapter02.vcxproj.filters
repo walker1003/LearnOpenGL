@@ -31,6 +31,9 @@
     <Filter Include="源文件\coordinate">
       <UniqueIdentifier>{f28a902d-f2d3-4df8-bdda-05d8de574204}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\camera">
+      <UniqueIdentifier>{5242cfa1-7561-45a5-9e1a-ef43f0d14a46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Thirdparty\glad\src\glad.c">
@@ -74,6 +77,15 @@
     </ClCompile>
     <ClCompile Include="ten_cubes.cpp">
       <Filter>源文件\coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="lookat.cpp">
+      <Filter>源文件\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="delta_time.cpp">
+      <Filter>源文件\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="zoom.cpp">
+      <Filter>源文件\camera</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +138,24 @@
     </None>
     <None Include="6.3.coordinate_systems.fs">
       <Filter>源文件\coordinate</Filter>
+    </None>
+    <None Include="7.1.camera.vs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.1.camera.fs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.2.camera.vs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.2.camera.fs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.3.camera.vs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.3.camera.fs">
+      <Filter>源文件\camera</Filter>
     </None>
   </ItemGroup>
 </Project>
