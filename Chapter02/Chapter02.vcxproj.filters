@@ -87,12 +87,18 @@
     <ClCompile Include="zoom.cpp">
       <Filter>源文件\camera</Filter>
     </ClCompile>
+    <ClCompile Include="zoom_camera.cpp">
+      <Filter>源文件\camera</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
       <Filter>源文件\shader</Filter>
     </ClInclude>
     <ClInclude Include="stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -155,6 +161,12 @@
       <Filter>源文件\camera</Filter>
     </None>
     <None Include="7.3.camera.fs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.4.camera.fs">
+      <Filter>源文件\camera</Filter>
+    </None>
+    <None Include="7.4.camera.vs">
       <Filter>源文件\camera</Filter>
     </None>
   </ItemGroup>

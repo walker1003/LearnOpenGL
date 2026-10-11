@@ -174,9 +174,13 @@
     <ClCompile Include="uniform.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="zoom.cpp" />
+    <ClCompile Include="zoom.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="zoom_camera.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
@@ -205,6 +209,8 @@
     <None Include="7.2.camera.vs" />
     <None Include="7.3.camera.fs" />
     <None Include="7.3.camera.vs" />
+    <None Include="7.4.camera.fs" />
+    <None Include="7.4.camera.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
